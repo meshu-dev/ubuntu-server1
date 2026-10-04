@@ -12,38 +12,12 @@ sudo sh install.sh
 
 # Services
 
-## Navidrome
+## Setup
 
-Go to navidrome folder.
-
-```
-cd ~/ubuntu-server1/services/navidrome
-```
-
-Create the .env file using the example.env.
+Go to specfic service folder.
 
 ```
-cp example.env .env
-```
-
-Open the .env file and edit the values.
-
-```
-vim .env
-```
-
-Start up the docker service.
-
-```
-docker compose up -d
-```
-
-## Jellyfin
-
-Go to jellyfin folder.
-
-```
-cd ~/ubuntu-server1/services/jellyfin
+cd ~/ubuntu-server1/services/[SERVICE]
 ```
 
 Create the .env file using the example.env.
