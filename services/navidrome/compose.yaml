@@ -6,5 +6,5 @@ services:
     restart: unless-stopped
     volumes:
       - "./data:/data"
-      - "${MUSIC_PATH}:/music:ro"
+      - ${MUSIC_PATH}:/music:ro
     env_file: .env
