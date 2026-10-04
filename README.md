@@ -37,3 +37,29 @@ Start up the docker service.
 ```
 docker compose up -d
 ```
+
+## Jellyfin
+
+Go to jellyfin folder.
+
+```
+cd ~/ubuntu-server1/services/jellyfin
+```
+
+Create the .env file using the example.env.
+
+```
+cp example.env .env
+```
+
+Open the .env file and edit the values.
+
+```
+vim .env
+```
+
+Start up the docker service.
+
+```
+docker compose up -d
+```
